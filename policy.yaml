@@ -1,0 +1,32 @@
+## list in which conditions our pipeline should fail
+sast:
+  critical_count:
+    operator: >
+    value: 100
+  high_count:
+    operator: >
+    value: 100
+
+sca:
+  critical_count:
+    operator: >
+    value: 100
+  high_count:
+    operator: >
+    value: 100
+
+secret:
+  critical_count:
+    operator: >
+    value: 100
+  high_count:
+    operator: >
+    value: 100
+
+license:
+  contains:
+  - AGPL
+  - GPL
+  - LGPL
+  - Apache-2.0
+
