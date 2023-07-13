@@ -16,9 +16,8 @@ sca:
     value: 1
 
 secret:
-  JDBC:
-    operator: greather_than
-    value: 1
+  contains:
+  - JDBC
 
 license:
   contains:
