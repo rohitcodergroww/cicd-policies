@@ -1,27 +1,27 @@
 ## list in which conditions our pipeline should fail
 sast:
   critical_count:
-    operator: >
-    value: 100
+    operator: greather_than
+    value: 2
   high_count:
-    operator: >
-    value: 100
+    operator: greather_than
+    value: 2
 
 sca:
   critical_count:
-    operator: >
-    value: 100
+    operator: greather_than
+    value: 2
   high_count:
-    operator: >
-    value: 100
+    operator: greather_than
+    value: 1
 
 secret:
   critical_count:
-    operator: >
-    value: 100
+    operator: greather_than
+    value: 1
   high_count:
-    operator: >
-    value: 100
+    operator: greather_than
+    value: 1
 
 license:
   contains:
@@ -29,4 +29,3 @@ license:
   - GPL
   - LGPL
   - Apache-2.0
-
