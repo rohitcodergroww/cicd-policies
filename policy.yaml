@@ -1,18 +1,18 @@
 ## list in which conditions our pipeline should fail
 sast:
   critical_count:
-    operator: greather_than
+    operator: greater_than
     value: 2
   high_count:
-    operator: greather_than
+    operator: greater_than
     value: 2
 
 sca:
   critical_count:
-    operator: greather_than
+    operator: greater_than
     value: 2
   high_count:
-    operator: greather_than
+    operator: greater_than
     value: 1
 
 secret:
